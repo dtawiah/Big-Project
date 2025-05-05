@@ -55,3 +55,33 @@ body {
 .navbar-toggler:hover {
   border-color: #8f0b13;
 }
+.card {
+    background-color: #efdfc5;  /* Light background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-title {
+    color: #2c3e50;  /* Darker heading color */
+    margin-bottom: 15px;
+    font-weight: 500; /* Medium font weight */
+}
+
+.card-text {
+    color: #34495e;  /* Slightly darker body text */
+    line-height: 1.7;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:#380f17;
+    border-color: #380f17;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8f0b13;
+    border-color: #8f0b13;
+}
