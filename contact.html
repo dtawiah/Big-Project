@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Responder's Quick Brief</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ppe-bsi.html">PPE/BSI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="communication.html">Communication</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mental-health.html">Mental Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipment.html">Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="scene-hazards.html">Scene Hazards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Responders</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="brief-title">Contact Us</h1>
+        <p class="brief-content">
+            If you have any questions, feedback, or suggestions, please feel free to contact us using the information below or the contact form.
+        </p>
+
+        <section class="brief-card">
+            <h2 class="brief-title">General Contact Information</h2>
+            <ul class="brief-content">
+                <li><strong>Email:</strong> <a href="mailto:info@responderquickbrief.org">info@responderquickbrief.org</a> (Replace with a real email)</li>
+                <li><strong>Phone:</strong> 555-123-4567 (Replace with a real phone number)</li>
+                <li><strong>Mailing Address:</strong><br>
+                    Responder's Quick Brief<br>
+                    123 Main Street<br>
+                    Anytown, USA 12345 (Replace with a real address)</li>
+            </ul>
+        </section>
+
+        <section class="brief-card">
+            <h2 class="brief-title">Contact Form</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter the subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p class="mt-3 text-muted">
+              Note: This form is a placeholder.  To make it functional, you would need server-side code (e.g., PHP, Python) to handle the form submission.
+            </p>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
