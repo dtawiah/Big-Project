@@ -37,7 +37,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: white; /* Style the navbar links */
+    color: #380f17; /* Style color the navbar links */
 }
 
 .navbar-nav .nav-link:hover {
@@ -49,9 +49,9 @@ body {
 }
 
 .navbar-toggler {
-  border-color: rgba(255,255,255,0.1);
+  border-color: #8f0b13;
 }
 
 .navbar-toggler:hover {
-  border-color: rgba(255,255,255,0.5);
+  border-color: #8f0b13;
 }
