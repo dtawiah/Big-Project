@@ -23,3 +23,35 @@ body {
 .nav-link:hover {
     color: #0056b3;
 }
+/* Navbar Styles */
+.navbar {
+    background-color: #e21c34; /* Change this color to your desired navbar color */
+}
+
+.navbar-brand {
+    color: #500b2b; /* Style the navbar brand (usually the site name) */
+}
+
+.navbar-brand:hover {
+    color: #e50914; /* Change color on hover, for example */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Style the navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e50914; /* Change color on hover */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'%3e%3c/path%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,0.1);
+}
+
+.navbar-toggler:hover {
+  border-color: rgba(255,255,255,0.5);
+}
